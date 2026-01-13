@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="start-screen">
+      <h1>HTML Quiz Time!</h1>
+      <p>Test Your HTML knowledge with these fun questions!</p>
+      <button class="btn1">Start Quiz</button>
+    </div>
+
+    <div class="difficulty-screen">
+      <h1>Choose Difficulty</h1>
+      <div class="dificulty">
+        <h2 class="diff">EASY</h2>
+        <h2 class="diff">MEDIUM</h2>
+        <h2 class="diff">HARD</h2>
+      </div>
+    </div>
+
+    <!-- QUIZ_PAGE -->
+    <div class="Quiz-page">
+      <h1 class="q-title">Question</h1>
+      <p class="question-state">
+        Question <span class="question-no">1</span> of 5
+      </p>
+      <p class="Score-keeper">Score: <span class="score-no">0</span></p>
+      <div class="options">
+        <h4 class="option option1">Option 1</h4>
+        <h4 class="option option2">Option 2</h4>
+        <h4 class="option option3">Option 3</h4>
+        <h4 class="option option4">Option 4</h4>
+      </div>
+      <div class="progress-bar">
+        <div class="inner-pb"></div>
+      </div>
+
+    </div>
+
+    <!-- <div class="explanation-page">
+      <h1>EXPLANATION</h1>
+      <div class="explanation-pane">
+        <h5>hhdbhdvhdbhjdbvdhvbd</h5>
+      </div>
+      <button>return</button>
+      
+    </div> -->
+
+    <div class="result-page">
+      <h1>Quick Results</h1>
+      <div class="result-pane">
+        <p>You scored <span class="scored">2</span> out of 5</p>
+        <h2 class="conclusion">Good effort Keep learning!</h2>
+      </div>
+      <button class="result-btn">Restart Quiz</button>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
