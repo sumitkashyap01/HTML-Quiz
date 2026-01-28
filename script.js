@@ -90,7 +90,7 @@ const qCycle = (qno) => {
   document.querySelector(".score-no").textContent = score;
 
 
-  if (qno == 4) {
+  if (qno == 5) {
     currentState.state = result;
     document.querySelector(".scored").textContent = score;
     if (score == 1 || score == 0) {
