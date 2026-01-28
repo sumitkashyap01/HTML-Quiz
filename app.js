@@ -5,7 +5,7 @@ const apiDifficulty = async (diff) => {
     state: "",
   };
 
-  const url = `https://quizapi.io/api/v1/questions?apiKey=2yNelooIUQiGFOYY7BZXLMzNkHlzIHCVAL8nOW5u&category=html&difficulty=${diff}&limit=5&tags=HTML`;
+  const url = `https://quizapi.io/api/v1/questions?apiKey=2yNelooIUQiGFOYY7BZXLMzNkHlzIHCVAL8nOW5u&category=html&difficulty=${diff}&limit=6&tags=HTML`;
   await axios.get(url).then((res) => {
     console.log(res.data);
     data = res.data;
